@@ -1,0 +1,47 @@
+.navbar{
+	margin-bottom: 0;
+}
+p{
+	font-size: 20px;
+}
+h1{
+	margin: 10px 30px;
+}
+.media-object{
+	width: 200px;
+	height: 200px;
+	/*padding: 5px;*/
+	border: solid #eee 5px;
+}
+.media-heading{
+	font-size: 30px;
+	color:#aaa;
+}
+p{
+	margin:10px 0 10px 0;
+}
+.contianer{
+	margin-top: 20px;
+}
+#content{
+	margin-bottom: 40px;
+}
+.footer{
+	padding: 30px 30px;
+	background-color: #91B493;
+	font-size: 20px;
+}
+#author{
+	text-align: right;
+}
+.explain{
+	color:#aaa;
+	font-size: 15px;
+}
+.thumbnail img{
+	width: 220px;
+	height: 220px;
+}
+#branch{
+	margin-top: 20px;
+}
