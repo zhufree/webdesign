@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Emoji</title>
+    <title>Emoji|网络时代</title>
 
     <!-- Bootstrap -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -17,24 +17,48 @@
       <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">表情发展史</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a target="_blank" class="navbar-brand" href="#">表情发展史</a>
+          <a class="navbar-brand" href="#">表情发展史</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="#">发展历程</a></li>
-            <li><a target="_blank" href="#">混沌的表情包在中国</a></li>
-            <li><a target="_blank" href="#">关于</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                发展历程<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="bihua.html">石刻壁画</a></li>
+                <li><a href="yinshua.html">印刷符号</a></li>
+                <li><a href="develop.html">网络时代</a></li>
+                <li><a href="emojimall.html">商业发展</a></li>
+              </ul>
+            </li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                混沌的表情包在中国<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="elder.html">中老年表情包</a></li>
+                <li><a href="sanjutou.html">表情包三巨头</a></li>
+                <li><a href="baozou.html">暴走漫画</a></li>
+                <li><a href="policy.html">政治（和谐）系列</a></li>
+                <li><a href="diy.html">DIY表情包</a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" href="about.html">关于</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-      </div>
+      </div><!-- /.container-fluid -->
     </nav>
     <div class="contianer" id="main">
       <div class="row col-md-10 col-md-offset-1" id="content">
+        <div class="page-header">
+          <h1>网络时代</h1>
+        </div>
         <p>传统的印刷工艺限制了表情包的发展，毕竟耗费心力只能做出一个权当卖萌的符号，并没有实际的用途，这类的表情亦无法成为主流，一直到百年以后的1982年的9月19日，Scott Elliott Fahlman教授在Carnegie Mellon的电子留言板上首次使用了电子形式的表情符号， :-) 及:-( ，这种用图形成为沟通媒介的表情才逐渐进入人们的日常生活。</p>
         <img src="static/img/emailemoji.png" width="80%" alt="">
         <p class="explain">最开始是用来避免语言的误会而使用表情符号</p>
@@ -50,36 +74,42 @@
             <div class="thumbnail">
               <a target="_blank" href="international.html">
                 <img src="static/img/emoji.png" alt="...">
+                <div class="caption">
+                  <h4>Emoji的国际化道路</h4>
+                  <p class="explain">国际的标准化趋势，以苹果公司为代表的大型企业，重视表情符号在产品的置入及沟通表情的行业应用</p>
+                </div>
               </a>
-              <div class="caption">
-                <h4>Emoji的国际化道路</h4>
-                <p class="explain">国际的标准化趋势，以苹果公司为代表的大型企业，重视表情符号在产品的置入及沟通表情的行业应用</p>
-              </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
               <a target="_blank" href="japan.html">
                 <img src="static/img/huoche.png" alt="...">
+                <div class="caption">
+                  <h4>日本的颜文字文化</h4>
+                  <p class="explain">日本的符号化趋势，以各种符号组成的颜文字发展，和基于手机通讯软件的表情商业模式运作</p>
+                </div>
               </a>
-              <div class="caption">
-                <h4>日本的颜文字文化</h4>
-                <p class="explain">日本的符号化趋势，以各种符号组成的颜文字发展，和基于手机通讯软件的表情商业模式运作</p>
-              </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-              <a target="_blank" href="china">
+              <a target="_blank" href="china.html">
                 <img src="static/img/yeliangchen.jpg" alt="...">
+                <div class="caption">
+                  <h4>中国表情包浑沌发展</h4>
+                  <p class="explain">而在中国，表情包则呈现出一种丧心病狂的分裂化发展态势。</p>
+                </div>
               </a>
-              <div class="caption">
-                <h4>中国表情包浑沌发展</h4>
-                <p class="explain">而在中国，表情包则呈现出一种丧心病狂的分裂化发展态势。</p>
-              </div>
             </div>
           </div>
         </div>
+        <nav>
+          <ul class="pager">
+            <li class="previous"><a href="yinshua.html"><span aria-hidden="true">&larr;</span>印刷符号</a></li>
+            <li class="next"><a href="emojimall.html">商业发展<span aria-hidden="true">&rarr;</span></a></li>
+          </ul>
+        </nav>
       </div>
     </div>
     <div class="footer col-md-12">
@@ -87,6 +117,7 @@
         <a target="_blank" href="http://jingxuan.guokr.com/pick/16836/" class="link col-md-8">Emoji简史</a>
         <a target="_blank" href="http://site.qudong.com/2015/0430/225652.shtml" class="link col-md-8">QQ表情：更懂中国网民情绪</a>
         <a target="_blank" href="http://news.mydrivers.com/1/425/425140.htm" class="link col-md-8">表情的时代来了 你需要翻译吗？</a>
+        <a target="_blank" href="https://www.zhihu.com/question/33188712/answer/56014902" class="link col-md-8">那些经典的表情中，里面的脸和外面的轮廓原型都是谁？——吴毅凡的回答</a>
       </div>
       <div id="author" class="col-md-6">
         <p>Zhufree</p>
